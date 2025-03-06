@@ -94,7 +94,8 @@ div {
 }
 
 ul {
-display: flex;
-flex-direction: row;
-padding: 1em
+  display: flex;
+  padding: 1em;
+  flex-flow: colum nowrap;
+  justify-content: space-between;
 }
