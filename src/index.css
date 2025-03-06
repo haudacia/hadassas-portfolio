@@ -1,11 +1,11 @@
 :root {
-  font-family: Victor Mono, Avenir, Helvetica, Arial, monospaced;
+  font-family: Victor Mono, monospace;
   line-height: 1.5;
   font-weight: 400;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.05em;
 
   color-scheme: light dark;
-  /* color: rgba(0, 49, 16, 0.87); */
+  color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -15,36 +15,26 @@
 }
 
 a {
-  font-weight: 700;
-  color: #ff2600;
+  font-weight: 600;
+  color: #ff00c8;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #ffa4d6;
+  color: #535bf2;
 }
 
 body {
   margin: 0;
   display: flex;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  /* background-image: url('/wine-grain.svg'); */
-  background-image: url('/gggrain (5).svg');
-  /* background-image: url('/wine-grain.svg');
-  background-image: url('/wine-grain.svg');
-  background-image: url('/wine-grain.svg'); */
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
-h1,
-h2,
-h3 {
-  font-size: 4em;
+h1 {
+  font-size: 6em;
   line-height: 1.1;
-  letter-spacing: -0.08em;
-  font-family: Playfair Display;
 }
 
 button {
@@ -60,22 +50,25 @@ button {
 }
 
 button:hover {
-  border-color: #ff00fb;
-}
-
-button {
-  border-radius: 100%;
-  border-color: black;
-  border-style: solid;
+  border-color: #646cff;
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto;
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-ul,
-ol {
-  list-style-type: none;
-  padding: 0;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
 }
