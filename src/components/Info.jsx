@@ -16,7 +16,7 @@ function Info() {
 
       <h1>Hadassa Medeiros</h1>
       <ul className='personal-info'>
-        <li>architect and urbanist / fullstack developer</li>
+        <li>/ fullstack developer / architect and urbanist</li>
         <li>hadassa.m.lima@gmail.com</li>
       </ul>
       <div className="info">
