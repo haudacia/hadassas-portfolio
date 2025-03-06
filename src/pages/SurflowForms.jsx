@@ -22,11 +22,9 @@ function SurflowForms() {
                     <p>descricao projeto... principais challenges faced were schemas. fairly complex schemas
 
                     </p>
-                    <p>2024 - 2025</p>\
+                    <p>2024 - 2025</p>
                     <div>
-
                         <h2>Nuclio Digital School</h2>
-
                     </div>
                     <p>TOOLS</p>
                     <ul>
