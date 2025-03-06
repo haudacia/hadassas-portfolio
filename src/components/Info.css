@@ -1,0 +1,15 @@
+#root {
+  max-width: fit-content;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 3em;
+  transition: 200ms;
+  /* padding: 1.5em; */
+  /* border-radius: 50%; */
+  /* will-change: filter; */
+  /* background-color: rgb(241, 226, 255); */
+}
