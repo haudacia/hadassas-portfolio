@@ -1,8 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
+import Header from "../components/Header";
+import Info from "../components/Info";
 
 function Layout() {
     return (
         <div className="flex h-screen">
+            <Header />
+            <Info />
             <nav className="w-64 bg-gray-900 text-white p-5 fixed h-full md:w-48 sm:w-40 sm:p-3">
                 <h1 className="text-xl font-bold mb-4 sm:text-lg">My Portfolio</h1>
                 <ul className="space-y-3">
