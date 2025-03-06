@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMe() {
     return (
-        <div className='flex m-12 p-8 flex-col w-1/2'>
+        <div className='flex m-12 p-8 flex-col w-1/3 bg-white'>
             <h1>ABOUT ME</h1>
             <p>
                 "Hi, I'm Hadassa—an architect and urban planner transitioning into tech. My passion for design, aesthetics, and process optimization led me to full-stack development, where I combine creativity with functionality.
