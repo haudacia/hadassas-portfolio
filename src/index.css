@@ -86,3 +86,8 @@ ol {
 p {
   padding: 32px;
 }
+
+div {
+  display: flex;
+
+}
