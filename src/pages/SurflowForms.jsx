@@ -18,13 +18,13 @@ function SurflowForms() {
                     <div className='w-full'>
                         <CustomVideo path='/surflow-webapp-demo.mp4' />
                     </div>
-
+                    {/* 
                     <p>descricao projeto... principais challenges faced were schemas. fairly complex schemas
 
-                    </p>
+                    </p> */}
                     <p>2024 - 2025</p>
                     <div>
-                        <h2>Nuclio Digital School</h2>
+                        <p>Nuclio Digital School</p>
                     </div>
                     <p>TOOLS</p>
                     <ul>

@@ -16,16 +16,12 @@
 
 a {
   font-weight: 700;
-  color: #ff2600;
+  color: #000000;
   text-decoration: inherit;
 }
 
-a:hover {
-  color: #ffa4d6;
-}
 
 body {
-  margin: 0;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
@@ -62,11 +58,13 @@ button {
 
 button:hover {
   border-color: #ff00fb;
+  background-color: rgb(179, 217, 205);
 }
 
 button {
-  border-radius: 100%;
+  border-radius: 5px;
   border-color: black;
+  background-color: aliceblue;
   border-style: solid;
 }
 
@@ -79,4 +77,8 @@ ul,
 ol {
   list-style-type: none;
   padding: 0;
+}
+
+p {
+  padding: 32px;
 }

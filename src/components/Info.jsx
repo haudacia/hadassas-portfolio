@@ -18,6 +18,7 @@ function Info() {
       <ul className='personal-info'>
         <li>/ fullstack developer / architect and urbanist</li>
         <li>hadassa.m.lima@gmail.com</li>
+        <li>Barcelona - Spain</li>
       </ul>
       <div className="info">
       </div>

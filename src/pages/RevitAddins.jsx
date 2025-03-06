@@ -15,16 +15,13 @@ function RevitAddins() {
                         <CustomVideo path='/revit-API-automations-demo.mp4' />
                     </div>
 
-                    <p>descricao projeto... principais challenges faced were schemas
-                        context
-                        AEC - industria da cosntrucao
-                        contexto de migracao cad-bim (explica breve p quem nao [e de construcao, e sim de tech.])
-
+                    <p>
+                        A key aspect was the transition from CAD to BIM—a shift from traditional 2D drafting to intelligent, data-driven 3D modeling. For those in tech, this means moving from static file-based workflows to a dynamic, interconnected system where data consistency and automation are crucial.
                     </p>
                     <p>2024 - 2025</p>\
                     <div>
                         <h2>Universidade Federal de Pernambuco</h2>
-                        <h3>Building Inventory Department</h3>
+                        <p>Building Inventory Department</p>
                     </div>
                     <p>TOOLS</p>
                     <ul>
