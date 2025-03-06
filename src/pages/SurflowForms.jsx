@@ -6,8 +6,6 @@ function SurflowForms() {
         <div className='flex flex-col h-screen w-screen overflow-auto justify-center'>
             <h1>surflow</h1>
             <p>form creation and submission with user authentication</p>
-            <ul>
-                <li>
                     <a href='https://github.com/nds-fsd/typeform' target='_blank'>
                         original repository
                     </a>
@@ -35,8 +33,6 @@ function SurflowForms() {
                         <li>Tailwind CSS</li>
                         <li>React Hook Form</li>
                     </ul>
-                </li>
-            </ul>
         </div>
     )
 }
