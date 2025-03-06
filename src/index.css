@@ -89,5 +89,7 @@ p {
 
 div {
   display: flex;
+  flex-direction: column;
+  justify: center
 
 }
