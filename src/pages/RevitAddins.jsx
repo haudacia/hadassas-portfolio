@@ -16,14 +16,16 @@ function RevitAddins() {
                     </div>
 
                     <p>
-                        A key aspect was the transition from CAD to BIM—a shift from traditional 2D drafting to intelligent, data-driven 3D modeling. For those in tech, this means moving from static file-based workflows to a dynamic, interconnected system where data consistency and automation are crucial.
+                        The context for this project was the transition from CAD to BIM—a shift from traditional 2D drafting to intelligent, data-driven 3D modeling. For those in tech, this means moving from static file-based workflows to a dynamic, interconnected system where data consistency and automation are crucial.
                     </p>
-                    <p>2024 - 2025</p>\
+                    <p>2024 - 2025</p>
                     <div>
                         <h2>Universidade Federal de Pernambuco</h2>
                         <p>Building Inventory Department</p>
                     </div>
-                    <p>TOOLS</p>
+                </li>
+            </ul>
+                <p>TOOLS</p>
                     <ul>
                         <li>Python</li>
                         <li>Revit Application Programming Interface (v.2023)</li>
@@ -31,8 +33,6 @@ function RevitAddins() {
                         <li>IronPython</li>
                         <li>pyRevit Stubs</li>
                     </ul>
-                </li>
-            </ul>
         </div>
 
     )
