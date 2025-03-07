@@ -1,25 +1,27 @@
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes } from "react-router-dom";
 import Layout from "./pages/Layout";
 import SurflowForms from "./pages/SurflowForms";
 import RevitAddins from "./pages/RevitAddins";
+import WorkoutTracker from "./pages/WorkoutTracker";
 import Projects from "./pages/Projects";
 import AboutMe from "./pages/AboutMe";
 
-
-const router = createBrowserRouter(
-    createRoutesFromElements(
-        <Route>
-            <Route path='/' element={<Layout />} />
-                <Route path='/projects' element={<Projects />} />
-                <Route path='/project-surflowforms' element={<SurflowForms />} />
-                <Route path='/project-revitaddins' element={<RevitAddins />} />
-                <Route path='/about-me' element={<AboutMe />} />
-        </Route>
-    )
+const App = () => (
+    <Routes>
+        <Route path='/' element={<Layout />}>
+            <Route index element={<AboutMe />} />
+            <Route path='projects'>
+                <Route index element={<Projects />} />
+                <Route path='surflow-forms' element={<SurflowForms />} />
+                <Route path='revit-addins' element={<RevitAddins />} />
+                <Route path='workout-tracker' element={<WorkoutTracker />} />
+            </Route>
+        </Route >
+    </Routes>
 )
 
-const App = () => {
-    return <RouterProvider router={router} />
-}
+// const App = () => {
+//     return <RouterProvider router={router} />
+// }
 
 export default App;

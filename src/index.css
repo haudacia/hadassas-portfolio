@@ -1,101 +1,62 @@
-:root {
-  font-family: Victor Mono, Avenir, Helvetica, Arial, monospaced;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: -0.03em;
-  background-color: #242424;
+@import "tailwindcss";
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+:root {
+  font-family: Lekton, Avenir, monospaced;
+  line-height: 1.3;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  background-color: hsl(0, 0%, 100%);
+  /* color: rgb(0, 0, 0); */
+  /* font-synthesis: none; */
+  /* text-rendering: optimizeLegibility; */
+  /* -webkit-font-smoothing: antialiased; */
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 700;
-  color: #000000;
-  text-decoration: inherit;
-}
-
-
 body {
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-  /* background-image: url('/wine-grain.svg'); */
-  background-image: url('/gggrain (5).svg');
-  /* background-image: url('/wine-grain.svg');
-  background-image: url('/wine-grain.svg');
-  background-image: url('/wine-grain.svg'); */
-  background-repeat: repeat;
-  /* background-size: 200%; */
-  background-size: cover;
+  max-height: screen;
 }
 
 h1,
-h2,
-h3 {
-  line-height: 1.1;
-  letter-spacing: -0.08em;
+h2 {
+  line-height: 2;
+  letter-spacing: -.11em;
+  font-family: Bodoni Moda;
+  /* font-family: Old Standard TT; */
+  /* font-family: Libre Bodoni; */
+  /* font-family: Oranienbaum; */
+  /* font-family: Libre Caslon Display; */
 }
 
 h1 {
-    font-size: 3em;
-    }
-    
+  font-size: 4em;
+  font-style: oblique;
+
+}
+
 h2 {
-    font-size: 1em
+  font-size: 2em;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
-button:hover {
-  border-color: #ff00fb;
-  background-color: rgb(179, 217, 205);
-}
-
-button {
-  border-radius: 5px;
-  border-color: black;
-  background-color: aliceblue;
-  border-style: solid;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto;
-}
-
-ul,
-ol {
+nav>ul,
+nav>ol {
   list-style-type: none;
-  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-p {
-  padding: 32px;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 div {
   display: flex;
-  flex-direction: column;
-  justify: center
-
 }
 
-ul {
+/* nav {
   display: flex;
-  flex-direction: column;
-  padding: 1em;
-  justify-content: center;
-}
+  flex-direction: row;
+} */
