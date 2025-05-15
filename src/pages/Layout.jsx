@@ -1,26 +1,15 @@
 import { Link, Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function Layout() {
-    return (
-        <div className="flex-col w-screen h-screen">
-            <h2>hadassa medeiros</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">
-                            about me
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/projects">
-                            projects
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-            <Outlet />
-        </div >
-    );
+  return (
+    <div className="flex-col w-screen h-screen">
+      <h2>hadassa medeiros</h2>
+      <Navbar />
+
+      <Outlet />
+    </div>
+  );
 }
 
 export default Layout;
