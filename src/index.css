@@ -24,19 +24,22 @@ h2 {
   line-height: 2;
   letter-spacing: -0.11em;
   font-family: Bodoni Moda;
-  /* font-family: Old Standard TT; */
-  /* font-family: Libre Bodoni; */
+  font-family: Old Standard TT;
+  font-family: Libre Bodoni; */
   /* font-family: Oranienbaum; */
-  /* font-family: Libre Caslon Display; */
+  /* font-family: Libre Caslon Display;
 }
 h1 {
-  font-size: 4em;
+  font-size: 5em;
   font-style: oblique;
 }
 h2 {
   font-size: 2em;
 }
-nav > ul,
+header nav {
+  border-bottom: 2px solid black;
+}
+nav nav > ul,
 nav > ol {
   list-style-type: none;
   display: flex;
