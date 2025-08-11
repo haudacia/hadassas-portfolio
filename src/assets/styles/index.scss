@@ -1,0 +1,84 @@
+@use "mixins";
+@use "variables";
+@use "tailwindcss";
+
+:root {
+  font-family: Lekton, Avenir, monospaced;
+  line-height: 1.3;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  background-color: hsl(34, 10%, 55%);
+  /* background-image: url(/public/gggrain-3.svg);
+  background-size: cover;
+  background-repeat: repeat; */
+  /* color: rgb(0, 0, 0); */
+  /* font-synthesis: none; */
+  /* text-rendering: optimizeLegibility; */
+  /* -webkit-font-smoothing: antialiased; */
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 0;
+}
+body {
+  max-height: screen;
+  font-family: "EB Garamond";
+  font-weight: 500;
+}
+h1,
+h2 {
+  line-height: 2;
+  letter-spacing: -0.11em;
+  font-family: "Red Hat Mono";
+}
+h1 {
+  font-size: 5em;
+  font-style: oblique;
+}
+h2 {
+  font-size: 2em;
+}
+header nav {
+  border-bottom: 2px solid black;
+}
+nav nav > ul,
+nav > ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+div {
+  display: flex;
+}
+/* nav {
+  display: flex;
+  flex-direction: row;
+} */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ou defina uma altura */
+}
+
+.video-container video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-container .overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(160, 141, 123, 0.353);
+  z-index: 1;
+}

@@ -7,8 +7,7 @@ function AboutMe() {
   return (
     <div className="flex-col px-32 py-16 gap-12">
       <div className="flex-row gap-[2em] w-1/2">
-        <h1>ABOUT</h1>
-        <h1>ME</h1>
+        <h1>About me</h1>
       </div>
       <div className="flex-row h-[7%] gap-[3%]">
         <CustomIcon
