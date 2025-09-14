@@ -22,12 +22,8 @@ body {
   max-height: screen;
   font-family: "EB Garamond";
   font-weight: 500;
-}
-h1,
-h2 {
-  line-height: 2;
-  letter-spacing: -0.11em;
-  font-family: "Red Hat Mono";
+  display: flex;
+  flex-direction: column
 }
 h1 {
   font-size: 5em;
