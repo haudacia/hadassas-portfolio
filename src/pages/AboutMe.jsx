@@ -6,7 +6,7 @@ import CustomIcon from "../components/CustomIcon";
 function AboutMe() {
   return (
     <div className="flex-col px-32 py-16 gap-12">
-      <div className="flex-row gap-[2em] w-1/2">
+      <div className="title flex-row gap-[2em] w-1/2">
         <h1>About me</h1>
       </div>
       <div className="flex-row h-[7%] gap-[3%]">
@@ -17,7 +17,7 @@ function AboutMe() {
         <CustomIcon href="github.com/haudacia" iconImg={githubIcon} />
       </div>
 
-      <div>
+      <div className="description">
         <ul className="personal-info">
           <li>Full-stack developer (front-end focus)</li>
           <li>Background in Architecture and Urbanism</li>
