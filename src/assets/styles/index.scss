@@ -58,6 +58,8 @@ a {
 // Layout
 .container {
   display: grid;
-  grid-template-cols: repeat(3, 1fr)
-  grid-template-rows: repeat(2, 1fr)
+  grid-template-cols: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-areas: 'title description description'
+'. description description';
 }
