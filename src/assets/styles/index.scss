@@ -18,6 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
   min-width: 0;
 }
+body {
+display: flex;
+flex-direction: row
+}
 nav nav > ul,
 nav > ol {
   list-style-type: none;
