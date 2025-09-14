@@ -64,5 +64,5 @@ a {
 '. description description';
 }
 
-.title {grid-area: title}
-.description {grid-area: title}
+.title {grid-area: title; font-size: 5em}
+.description {grid-area: description}
