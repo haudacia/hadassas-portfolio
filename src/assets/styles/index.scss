@@ -54,3 +54,10 @@ a {
   background-color: rgba(160, 141, 123, 0.353);
   z-index: 1;
 }
+
+// Layout
+.container {
+  display: grid;
+  grid-template-cols: repeat(3, 1fr)
+  grid-template-rows: repeat(2, 1fr)
+}
