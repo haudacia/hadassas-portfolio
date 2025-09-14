@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function Layout() {
   return (
-    <div className="flex-col w-screen h-screen">
+    <div className="container">
       <Navbar />
       <Outlet />
     </div>
