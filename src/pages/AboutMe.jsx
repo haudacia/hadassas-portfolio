@@ -17,25 +17,18 @@ function AboutMe() {
         <CustomIcon href="github.com/haudacia" iconImg={githubIcon} />
       </div>
 
-      <div className="flex-col w-1/2 gap-12 self-end">
+      <div>
         <ul className="personal-info">
-          <li>full stack developer</li>
-          <li>architect and urbanist</li>
+          <li>Full-stack developer (front-end focus)</li>
+          <li>Background in Architecture and Urbanism</li>
           <li>hadassa.m.lima@gmail.com</li>
           <li>barcelona, spain</li>
         </ul>
         <div className="flex-col">
-          <p>Hi, I'm Hadassa — an architect transitioning into tech</p>
           <p>
-            I love aesthetics + process optimization led me to full-stack
-            development, where I can combine creativity with well structures
-            processes. I specialize in the MERN stack (MongoDB, Express, React,
-            Node.js) I love crafting well-thought-out systems, automating
-            workflows, and ensuring every detail serves a purpose.
-          </p>
-          <p>
-            Beyond tech, I'm into interior design, fashion, personal
-            organization and weightlifting.
+            I like things to flow and be uncomplicated. Full stack
+            developer, front-end focus, UX awareness, academic background in architecture and urbanism. I specialize in the MERN stack (MongoDB, Express, React,
+            Node.js).
           </p>
         </div>
       </div>
